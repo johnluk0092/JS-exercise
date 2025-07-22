@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 8: Đăng ký thành viên</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="container">
+        <h3 align="center">ĐĂNG KÝ THÀNH VIÊN</h3>
+        <form action="bai8.html" name="dangky" method="post" onsubmit="return kiemtra()">
+            <table border="0" align="center" width="500">
+                <tr>
+                    <td width="150">Họ và Tên:(*)</td>
+                    <td width="350"><input type="text" name="txthoten"></td>
+                </tr>
+                <tr>
+                    <td>Giới Tính :</td>
+                    <td>
+                        <select name="gt" size="1">
+                            <option value="0">Nam</option>
+                            <option value="1">Nữ</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh :(*)</td>
+                    <td>
+                        Ngày:<select name="ngay">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        Tháng:<select name="thang">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        Năm:<input type="text" name="nam" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email (*)</td>
+                    <td><input name="em" type="text" maxlength="40" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Tên Đăng Nhập :(*)</td>
+                    <td><input type="text" name="tdn" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu :(*)</td>
+                    <td><input type="password" name="mk" size="20"></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại Mật khẩu :(*)</td>
+                    <td><input type="password" name="nlmk" size="20"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Đăng ký"><input type="reset" value="Bỏ qua"></td>
+                </tr>
+            </table>
+        </form>
+        <a href="../home.html" class="back-link">Quay lại trang chủ</a>
+    </div>
+
+    <script src="script8.js"></script>
+</body>
+</html>
